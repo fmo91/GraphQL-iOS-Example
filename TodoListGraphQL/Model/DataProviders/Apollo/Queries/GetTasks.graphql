@@ -1,0 +1,12 @@
+query GetTasks($projectId: ID!) {
+	project(id: $projectId) {
+		id
+		title
+		tasks {
+			id
+			title
+			content
+			completed
+		}
+	}
+}

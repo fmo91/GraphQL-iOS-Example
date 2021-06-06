@@ -1,0 +1,8 @@
+mutation EditTask($data: EditTaskInput!) {
+  editTask(data:$data) {
+	  id
+	  title
+	  content
+	  completed
+  }
+}

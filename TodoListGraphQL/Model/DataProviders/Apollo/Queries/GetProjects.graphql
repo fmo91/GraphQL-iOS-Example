@@ -1,0 +1,12 @@
+query GetProjects {
+	projects {
+		id
+		title
+		tasks {
+			id
+			title
+			content
+			completed
+		}
+	}
+}

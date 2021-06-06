@@ -1,0 +1,12 @@
+mutation CreateProject($data: CreateProjectInput!) {
+  createProject(data: $data) {
+	  id
+	  title
+	  tasks {
+		  id
+		  title
+		  content
+		  completed
+	  }
+  }
+}
